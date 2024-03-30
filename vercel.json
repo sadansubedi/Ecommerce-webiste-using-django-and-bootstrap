@@ -9,11 +9,11 @@
         {
             "src": "/(.*)",
             "dest": "shoppinglyx-main/wsgi.py"
-        }
+        },
+         {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    }
     ]
 }
-{
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
-}
+
