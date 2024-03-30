@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "Ecommerce-webiste-using-django-and-bootstrap/wsgi.py",
+        "src": "shoppinglyx/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
       },
@@ -21,7 +21,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "Ecommerce-webiste-using-django-and-bootstrap/wsgi.py"
+        "dest": "shoppinglyx/wsgi.py"
       }
     ]
   }
