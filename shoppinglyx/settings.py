@@ -25,8 +25,8 @@ SECRET_KEY = '8o353)z(_*^04+jhey!m*q3_no@vhn*7v8(6xz4rl6=kunu=it'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -123,4 +123,7 @@ STATIC_URL = '/static/'
 
 MEDIA_URL ='/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'#here it 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'#here it S
+
+# STATICFILES_DIRS = [BASE_DIR/'static',]
+# STATIC_ROOT = BASE_DIR/'staticfiles'
